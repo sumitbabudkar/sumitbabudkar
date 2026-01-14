@@ -1,21 +1,98 @@
-Market Entry Analysis – ABC Motors (India)
+ABC Motors, a successful Japanese automobile manufacturer, is evaluating entry into the Indian market.
+This project uses data science and predictive modeling to estimate market potential and assess whether the company can achieve a target of 10,000 car sales per year in India.
 
-#Goal:
-Evaluate whether ABC Motors can enter the Indian market and achieve 10,000 car sales/year using data-driven insights.
+# Business Objective
 
-#Approach:
+-Analyze Japanese customer behavior to understand purchase drivers
 
-Trained a Logistic Regression model on Japanese customer data
+-Build an interpretable classification model to predict car purchases
 
-Validated with scaling & threshold optimization
+Apply the model to Indian customer data to estimate potential buyers
 
-Applied model to Indian data to estimate buyer potential
+Support a GO / NO-GO market entry decision using data
 
-#Key Insight:
-Maintenance cycle and income are the strongest purchase drivers.
+# Datasets Used
 
-#Result:
-Model predicts sufficient high-probability buyers to meet sales targets.
+Japanese Dataset: Historical customer data with purchase labels
 
-Tools:
-Python · Scikit-learn · Tableau · Excel ,python library
+Indian Dataset: Customer data used for purchase probability prediction
+
+Key variables include:
+
+Age
+
+Gender
+
+Annual Income
+
+Days since last vehicle maintenance
+
+#Tools & Technologies
+
+Python (Pandas, NumPy, Scikit-learn)
+
+Tableau
+
+Excel
+
+Logistic Regression
+
+# Methodology
+
+Data Cleaning & Feature Engineering
+
+Standardized columns
+
+Created maintenance segments based on days since last service
+
+Exploratory Data Analysis (EDA)
+
+Identified income and maintenance cycle as key purchase drivers
+
+Model Building
+
+Logistic Regression (chosen for interpretability)
+
+Model Validation
+
+Train–test split
+
+Feature scaling
+
+Threshold optimization (selected threshold = 0.4)
+
+Market Estimation
+
+Applied the validated model to Indian data
+
+Estimated realistic conversion rates
+
+# Key Results
+
+ROC-AUC: ~0.75 (validated model)
+
+High recall, ensuring minimal loss of potential buyers
+
+Model predicts a sufficient pool of high-probability buyers in India
+
+Annual sales target of 10,000 cars is achievable
+
+# Tableau Dashboard
+
+An interactive Tableau dashboard was built to:
+
+Visualize customer behavior (Japan)
+
+Display model predictions (India)
+
+Support executive-level decision making
+
+#Final Recommendation
+
+ABC Motors should proceed with a phased entry into the Indian market, using data-driven customer targeting focused on:
+
+Older vehicle maintenance segments
+
+Mid-to-high income customers
+
+#
