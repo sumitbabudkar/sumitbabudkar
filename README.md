@@ -1,16 +1,21 @@
-## Hi there 👋
+Market Entry Analysis – ABC Motors (India)
 
-<!--
-**sumitbabudkar/sumitbabudkar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#Goal:
+Evaluate whether ABC Motors can enter the Indian market and achieve 10,000 car sales/year using data-driven insights.
 
-Here are some ideas to get you started:
+#Approach:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Trained a Logistic Regression model on Japanese customer data
+
+Validated with scaling & threshold optimization
+
+Applied model to Indian data to estimate buyer potential
+
+#Key Insight:
+Maintenance cycle and income are the strongest purchase drivers.
+
+#Result:
+Model predicts sufficient high-probability buyers to meet sales targets.
+
+Tools:
+Python · Scikit-learn · Tableau · Excel ,python library
