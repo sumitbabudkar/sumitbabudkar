@@ -27,15 +27,7 @@ Annual Income
 
 Days since last vehicle maintenance
 
-#Tools & Technologies
 
-Python (Pandas, NumPy, Scikit-learn)
-
-Tableau
-
-Excel
-
-Logistic Regression
 
 # Methodology
 
@@ -95,4 +87,12 @@ Older vehicle maintenance segments
 
 Mid-to-high income customers
 
-#
+#Tools use
+
+Python (Pandas, NumPy, Scikit-learn)
+
+Tableau
+
+Excel
+
+Logistic Regression
