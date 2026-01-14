@@ -1,11 +1,11 @@
-ABC Motors, a successful Japanese automobile manufacturer, is evaluating entry into the Indian market.
+#ABC Motors, a successful Japanese automobile manufacturer, is evaluating entry into the Indian market.
 This project uses data science and predictive modeling to estimate market potential and assess whether the company can achieve a target of 10,000 car sales per year in India.
 
 # Business Objective
 
--Analyze Japanese customer behavior to understand purchase drivers
+Analyze Japanese customer behavior to understand purchase drivers
 
--Build an interpretable classification model to predict car purchases
+Build an interpretable classification model to predict car purchases
 
 Apply the model to Indian customer data to estimate potential buyers
 
@@ -26,8 +26,6 @@ Gender
 Annual Income
 
 Days since last vehicle maintenance
-
-
 
 # Methodology
 
@@ -79,17 +77,8 @@ Display model predictions (India)
 
 Support executive-level decision making
 
-#Final Recommendation
+# Tools & Technologies
 
-ABC Motors should proceed with a phased entry into the Indian market, using data-driven customer targeting focused on:
-
-Older vehicle maintenance segments
-
-Mid-to-high income customers
-
-
-
-#-Tools use
 
 Python (Pandas, NumPy, Scikit-learn)
 
