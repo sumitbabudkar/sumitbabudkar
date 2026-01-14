@@ -87,7 +87,9 @@ Older vehicle maintenance segments
 
 Mid-to-high income customers
 
-#Tools use
+
+
+#-Tools use
 
 Python (Pandas, NumPy, Scikit-learn)
 
